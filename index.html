@@ -13,9 +13,9 @@
         <nav id="menu">
             <ul>
                 <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#skills"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formação"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos"><i class="fa-solid fa-trowel-bricks"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
@@ -65,13 +65,29 @@
                                 <i class="fa-solid fa-code"></i> CSS3
                             </span>
                             <span class="porcent">
-                                80%
+                                100%
                             </span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 80%;"></div>
+                            <div class="progresso" style="width: 100%;"></div>
                         </div>
-                    </div>
+                    
+                </div>
+                        <di class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    <i class="fa-solid fa-code"></i> JavaScript
+                                </span>
+                                <span class="porcent">
+                                    50%
+                                </span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width: 50%;"></div>
+                            </div>
+                        </di>
+
+                    
                 </div>
             </article>
 
@@ -82,8 +98,43 @@
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
-                <img src="imagens/Captura de tela 2026-04-20 225238.png" alt="">
-                <img src="imagens/Captura de tela 2026-05-08 223903.png" alt="">
+                
+                <div class="carousel-container">
+                    <div class="carousel-slides">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <img class="login" src="imagens/Tela login.png" alt="Página de Login">
+                            <p>Projeto de uma página de login, utilizando HTML e CSS para criar um design moderno e responsivo. O layout é simples e intuitivo, com campos para inserir o nome de usuário e senha, além de um botão de login. O projeto demonstra habilidades em estruturação de páginas web e estilização visual.</p>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <img class="calculadora" src="imagens/Captura de tela 2026-05-08 223903.png" alt="Calculadora">
+                            <p>Projeto de uma calculadora simples, utilizando HTML, CSS e JavaScript para criar uma interface intuitiva e funcional. O projeto demonstra habilidades em lógica de programação e manipulação do DOM.</p>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <img class="land page" src="imagens/Captura de tela 2026-06-15 111729.png" alt="Landing Page">
+                            <p>Projeto de uma landing page moderna, utilizando HTML, CSS e JavaScript para criar uma página atrativa e responsiva. Demonstra habilidades em design de interface e experiência do usuário.</p>
+                        </div>
+                    </div>
+
+                    <!-- Navegação -->
+                    <button class="carousel-btn prev" id="prevBtn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn next" id="nextBtn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <!-- Indicadores -->
+                    <div class="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                    </div>
+                </div>
             </article>
         </section>
     </main>   
